@@ -100,7 +100,6 @@ body {
 
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
     padding: 0%;
     gap: 24px;
     
@@ -233,11 +232,14 @@ footer h2 {
 }
 
 .img-rodape {
-    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-linkedin {
     height: 40px;
+    margin: 0 2px;
     opacity: 0.8;
     transition: 0.8s all;
 }
@@ -250,7 +252,7 @@ footer h2 {
 
 .img-git {
     height: 40px;
-    margin-left: 5px;
+    margin: 0 2px;
     opacity: 0.8;
     transition: 0.8s all;
     
